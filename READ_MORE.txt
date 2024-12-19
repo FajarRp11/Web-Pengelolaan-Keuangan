@@ -1,0 +1,8 @@
+1. Ekstrak file zip
+2. Jalankan web server (XAMPP/Laragon/Wamp)
+3. Buat database dengan nama pencatatan-keuangan
+4. Ekspor file pencatatan-keuangan.sql pada database yang telah dibuat atau jalankan perintah 'php artisan migrate' pada terminal
+5. Buka terminal pada folder tempat penyimpanan file yang telah diekstrak dan jalankan perintah 'npm run dev'
+6. Buka terminal terminal baru pada folder tempat penyimpanan file yang telah diekstrak dan jalankan perintah 'php artisan serve'
+7. Ketikan http://127.0.0.1:8000/ pada web browser
+8. Lakukan login pada halaman http://127.0.0.1:8000/login dengan email: admin@mail.com dan password: admin
